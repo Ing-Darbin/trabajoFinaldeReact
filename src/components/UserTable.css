@@ -1,0 +1,11 @@
+/* UserTable.css */
+@media (max-width: 600px) {
+  .table-bordered {
+    font-size: 0.8em;
+  }
+ en se ajuste bien dentro del contenedor */
+
+  .header-row {
+    background-color: green;
+  };
+}

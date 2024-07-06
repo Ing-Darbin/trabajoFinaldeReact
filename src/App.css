@@ -1,0 +1,94 @@
+#root {
+  background-color: rgb(136, 129, 103);
+  max-width: 1280px;
+  margin: 0 auto;
+  padding: 2rem;
+  text-align: center;
+  color: rgb(17, 243, 62);
+  -o-border-radius: 50px;
+  -webkit-border-radius: 50px;
+  -moz-border-radius: 50px;
+  -ms-border-radius: 50px;
+  border-radius: 50px;
+}
+body {
+background-color: rgb(221, 249, 10);
+}
+
+.logo {
+  height: 6em;
+  padding: 1.5em;
+  will-change: filter;
+  transition: filter 300ms;
+}
+.logo:hover {
+  filter: drop-shadow(0 0 2em #0ad5baaa);
+}
+.logo.react:hover {
+  filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+@keyframes logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  a:nth-of-type(2) .logo {
+    animation: logo-spin infinite 20s linear;
+  }
+}
+
+.card {
+  padding: 2em;
+}
+
+.read-the-docs {
+  color: #0ab6f4;
+}
+
+  h1 {
+    color: #bfd30b;
+  }
+  .user-image {
+    border-radius: 50px;
+}
+ .header-row {
+  background-color: rgb(5, 48, 5);
+  text-align: center;
+  color: white;
+  font-size: 30px;
+  border: 2px solid black;
+};
+.table-text-white {
+  color: white;
+  text-align: center;
+}
+.table-cell-bordered {
+  border: 1px solid black;
+}
+.table-bordered {
+  border-collapse: collapse;
+}
+
+.table-bordered th,
+.table-bordered td {
+  border: 2px solid #140202;
+  padding: 8px;
+}
+
+.header-row {
+  background-color: green;
+}
+.table-header {
+  display: flex;
+  justify-content: space-between;
+}
+.table-cell-centered {
+  text-align: center;
+  vertical-align: middle;
+}
